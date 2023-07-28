@@ -12,6 +12,8 @@
         <module>echo-server</module>
         <module>echo-client</module>
         <module>chat-server</module>
+        <module>datagram-demo</module>
+        <module>datagram-client-demo</module>
     </modules>
 
     <properties>

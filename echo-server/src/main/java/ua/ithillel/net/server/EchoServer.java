@@ -17,7 +17,7 @@ public class EchoServer implements AutoCloseable {
             try {
                 Socket socket = this.serverSocket.accept();
 
-               new Thread(() -> {
+                new Thread(() -> {
                    try (OutputStream outputStream = socket.getOutputStream()) {
                        PrintWriter printWriter = new PrintWriter(new OutputStreamWriter(outputStream));
 
