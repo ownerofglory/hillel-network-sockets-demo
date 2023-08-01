@@ -14,6 +14,7 @@
         <module>chat-server</module>
         <module>datagram-demo</module>
         <module>datagram-client-demo</module>
+        <module>http-server-demo</module>
     </modules>
 
     <properties>
